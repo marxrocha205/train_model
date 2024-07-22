@@ -1,0 +1,27 @@
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: True
+ | > Precision: fp16
+ | > Num. of CPUs: 6
+ | > Num. of Torch Threads: 6
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=d:\projetos\tts\run-July-20-2024_01+33PM-28d6c12
+
+ > Model has 32333713 parameters
+
+[4m[1m > EPOCH: 0/1000[0m
+ --> d:\projetos\tts\run-July-20-2024_01+33PM-28d6c12
+
+[1m > TRAINING (2024-07-20 13:34:11) [0m
+
+[1m   --> TIME: 2024-07-20 13:34:43 -- STEP: 0/1 -- GLOBAL_STEP: 0[0m
+     | > current_lr: 2.5e-07 
+     | > step_time: 2.8285  (2.8285176753997803)
+     | > loader_time: 29.4304  (29.430370092391968)
+
+ [!] `train_step()` retuned `None` outputs. Skipping training step.
+ ! Run is kept in d:\projetos\tts\run-July-20-2024_01+33PM-28d6c12
